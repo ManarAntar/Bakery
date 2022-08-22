@@ -1,0 +1,259 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #686868;
+    font-size: 17px;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+img{
+    width:100%;
+}
+ul li{
+    list-style-type: none;
+}
+h2, h3{
+    color: #303030;
+}
+p, ul li{
+    line-height:1.8em;
+}
+/* Start Home */
+.home{
+    background-image: url('../img/drew-coffman-1872.jpg');
+    height: 100vh;
+    background-size: 100% 100%;
+    background-position: center center;
+    overflow: auto;
+    color:white;
+}
+.home-cap{
+    text-align: center;
+    margin-top: 50px;
+}
+.nav{
+    width: 85%;
+    margin: auto;
+    margin-bottom: 50px;
+    padding: 15px;
+}
+.nav-logo{
+    width:13%;
+    float: left;
+    margin-top:10px;
+    cursor: pointer;
+}
+.nav-links ul{
+    float: right;
+    margin-top:10px;
+}
+.nav-links ul li{
+    float: left;
+    padding: 15px;
+}
+.nav-links ul li a{
+    color: white; 
+    padding-top: 20px;
+    font-size: 18px
+}
+.nav-links ul li .active{
+    border-top: 3px solid #ae9768;
+
+}
+.nav-links ul li a:hover{
+    color:#ae9768;
+}
+.clr{
+    clear: both;
+}
+.home-cap p{
+    font-size: 24px;
+    margin:10px 0;
+}
+.home-cap h1{
+    font-size: 55px;
+    margin-top: 10px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+.home-cap .btn{
+    color:white; 
+    padding: 19px 25px;
+    font-size: 17px; 
+    margin: 20px 5px; 
+    font-weight: 600;
+    border-radius: 5px;
+}
+.home-cap .btn:hover{
+    color:black;
+    background-color: white;
+}
+.home-cap .btn1{
+    background-color: #8e7754;
+    border-width: 0;
+}
+.home-cap .btn2{
+    background-color:transparent;
+    border: 2px solid white;
+}
+/* .scroll{
+    width: 35px;
+    height: 50px;
+    border-radius: 40%;
+    border: 2px solid white;
+    margin: auto;
+    margin-top:40px;
+    margin-bottom:40px;
+} */
+/* End Home */
+/* Start About */
+.about{
+    width:90%;
+    margin: auto;
+    margin-top:50px;
+}
+.about-img{
+    width:40%;
+    float: left;
+}
+.about-img img{
+    margin-top: 25px;
+}
+.about-cap{
+    width:50%;
+    float: right;
+    margin-right: 30px;
+}
+.about-list{
+    text-align: left;
+}
+.about-cap p{
+    margin: 20px 0;
+}
+.about-list ul li{
+    padding: 5px;
+}
+.about-list ul li .icon-color,.blog-cap ul li .icon-color {
+   color: #8e7754;
+   font-size: 24px;
+   padding-right: 13px;
+}
+/* End About */
+/* Start Offer */
+.offer{
+    width:90%;
+    margin:auto;
+    margin-top:50px;
+}
+.offer-img{
+    width:45%;
+    float: right;
+} 
+.offer-img img{
+   margin-top: 25px;
+}
+.offer-cap{
+    width:45%;
+    float: left;
+    font-size: 17px;
+}
+.offer-cap p{
+    margin:20px 0;
+}
+/* End Offer */
+/* Start Gallery */
+.gallery{
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    margin-top: 50px;
+}
+.gallery-item{
+    width:33%;
+    text-align: center;
+    float: left;
+}
+.gallery p{
+    margin:20px 0;
+}
+.gallery h3, h2{
+    margin:25px 0;
+}
+/* End Gallery */
+/* Start Blog */
+.blog{
+    width:90%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.blog-cap{
+    width:40%;
+    float: left;
+}
+.blog-map{
+    width:50%;
+    float: right;
+}
+.blog-cap p{
+    margin:20px 0;
+}
+/* End Blog */
+ /* Start contact  */
+.contact{
+    background-color:#403d38;
+    padding: 60px 0 52px 0;
+}
+.inner{
+    width:90%;
+    margin: auto;
+}
+.inner h4{
+    color:white;
+}
+.contact-col{
+    width:25%;
+    float:left;
+    padding: 15px;
+}
+.contact-col p, .contact-col ul li{
+    margin:20px 0; 
+    font-size: 15px;
+}
+.contact-col ul li i{
+    padding: 7px;
+}
+.contact-col ul li{
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+    color: #969696;
+}
+ /* End contact  */
+/* Start Footer  */
+.footer{
+    background-color: #353330;
+}
+.footer-content{
+    width:40%;
+    margin:auto;
+    text-align:center;
+    padding: 50px;
+}
+.footer-content p{
+    margin: 30px 0;
+}
+.footer-content a{
+  color: #969696;
+  border-radius:50%;
+  padding: 12px;
+  margin:20px 5px;
+  border:2px solid #969696;
+}
+/* End Footer  */
+
+
