@@ -30,6 +30,7 @@ p, ul li{
     height: 100vh;
     background-size: 100% 100%;
     background-position: center center;
+    background-attachment: fixed;
     overflow: auto;
     color:white;
 }
@@ -52,6 +53,7 @@ p, ul li{
 .nav-links ul{
     float: right;
     margin-top:10px;
+
 }
 .nav-links ul li{
     float: left;
@@ -238,6 +240,9 @@ p, ul li{
 .footer{
     background-color: #353330;
 }
+.footer img{
+    width:60%;   
+}
 .footer-content{
     width:40%;
     margin:auto;
@@ -255,5 +260,6 @@ p, ul li{
   border:2px solid #969696;
 }
 /* End Footer  */
+
 
 
